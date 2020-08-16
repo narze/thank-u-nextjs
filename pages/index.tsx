@@ -1,12 +1,11 @@
-import Head from 'next/head'
+import { css } from '@emotion/css'
+import tw from '@tailwindcssinjs/macro'
+import ButtonCss from '../components/ButtonCss'
+import ButtonReact from '../components/ButtonReact'
+import ButtonStyled from '../components/ButtonStyled'
 
 export const Home = (): JSX.Element => (
   <div className="container">
-    <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-
     <main>
       <h1 className="title">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -23,6 +22,12 @@ export const Home = (): JSX.Element => (
       >
         Test Button
       </button>
+
+      <div className={css(tw`mt-8 grid gap-4 grid-cols-3 justify-center items-center`)}>
+        <ButtonCss>@emotion/css</ButtonCss>
+        <ButtonReact>@emotion/react</ButtonReact>
+        <ButtonStyled>@emotion/styled</ButtonStyled>
+      </div>
 
       <div className="grid">
         <a href="https://nextjs.org/docs" className="card">

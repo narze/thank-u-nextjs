@@ -1,12 +1,13 @@
 {
-  "name": "with-typescript-eslint-jest",
-  "author": "@erikdstock",
+  "name": "with-typescript-eslint-jest-tailwindcss-emotion",
+  "author": "@narze",
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "build:base-css": "tailwindcss build ./styles/tailwind.base.css -o ./styles/base.css",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write \"**/*.{js,ts,tsx}\"",
     "lint": "eslint . --ext ts --ext tsx --ext js",
@@ -26,11 +27,19 @@
     ]
   },
   "dependencies": {
+    "@emotion/css": "^11.0.0-next.12",
+    "@emotion/react": "^11.0.0-next.12",
+    "@emotion/styled": "^11.0.0-next.12",
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@emotion/babel-plugin": "^11.0.0-next.12",
+    "@emotion/server": "^11.0.0-next.12",
+    "@tailwindcss/ui": "^0.2.2",
+    "@tailwindcssinjs/macro": "^0.3.1",
     "@testing-library/react": "^10.0.1",
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.5",
@@ -39,6 +48,7 @@
     "@typescript-eslint/eslint-plugin": "^2.25.0",
     "@typescript-eslint/parser": "^2.25.0",
     "babel-jest": "^25.2.3",
+    "babel-plugin-macros": "2.8.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-react": "^7.19.0",
@@ -47,6 +57,7 @@
     "jest-watch-typeahead": "^0.5.0",
     "lint-staged": "^10.0.10",
     "prettier": "^2.0.2",
+    "tailwindcss": "^1.6.0",
     "typescript": "^3.8.3"
   }
 }
