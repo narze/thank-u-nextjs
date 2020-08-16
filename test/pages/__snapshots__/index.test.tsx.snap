@@ -35,6 +35,70 @@ exports[`Home page matches snapshot 1`] = `
         Test Button
       </button>
       <div
+        class="jsx-2250570153 css-1d6h1jx-Home"
+      >
+        <button
+          class="css-e7qmf6-button group"
+        >
+          <span
+            class="css-1plhd0h-ButtonCss"
+          >
+            <svg
+              class="css-qkfjq1-ButtonCss"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          @emotion/css
+        </button>
+        <button
+          class="group  css-1tcz458-Component"
+        >
+          <span
+            class="css-15quut2-ButtonReact"
+          >
+            <svg
+              class="css-jxx9nt-ButtonReact"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          @emotion/react
+        </button>
+        <button
+          class="group  css-xcz8wc-Button e1hljgas2"
+        >
+          <span
+            class="css-1maqz9a-IconWrapper e1hljgas1"
+          >
+            <svg
+              class="css-1yqsut3-Icon e1hljgas0"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          @emotion/styled
+        </button>
+      </div>
+      <div
         class="jsx-2250570153 grid"
       >
         <a
