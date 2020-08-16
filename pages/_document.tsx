@@ -7,7 +7,12 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 // Required for @emotion/css
 import { extractCritical } from '@emotion/server'
 
-export default class MyDocument extends Document {
+interface MyDocumentProps {
+  ids: string[],
+  css: string,
+}
+
+export default class MyDocument extends Document<MyDocumentProps> {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
     const page = await ctx.renderPage()

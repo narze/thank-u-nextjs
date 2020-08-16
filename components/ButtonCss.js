@@ -7,7 +7,7 @@
     "@emotion/css"
     "@emotion/babel-plugin"
     "@emotion/server"
-  
+
   These packages can be removed if you plan on only using @emotion/css API:
     "@emotion/react"
     "@emotion/styled"
@@ -35,7 +35,7 @@ const styles = {
   `),
 }
 
-const ButtonCss = ({ className, children, ...props }) => (
+const ButtonCss = ({ className=null, children, ...props }) => (
   <button {...props} className={cx(styles.button, 'group', className)}>
     {/* inline style */}
     <span className={css(tw`absolute left-0 inset-y-0 flex items-center pl-3`)}>
