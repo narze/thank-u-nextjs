@@ -12,7 +12,11 @@
     "format": "prettier --write \"**/*.{js,ts,tsx}\"",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test"
+    "test-all": "yarn lint && yarn type-check && yarn test && cy:ci",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "e2e": "start-test dev 3000 cy:open",
+    "cy:ci": "start-test dev 3000 cy:run"
   },
   "husky": {
     "hooks": {
@@ -59,6 +63,7 @@
     "jest-watch-typeahead": "^0.5.0",
     "lint-staged": "^10.0.10",
     "prettier": "^2.0.2",
+    "start-server-and-test": "^1.11.3",
     "tailwindcss": "^1.6.0",
     "ts-jest": "^26.2.0",
     "typescript": "^3.8.3"
