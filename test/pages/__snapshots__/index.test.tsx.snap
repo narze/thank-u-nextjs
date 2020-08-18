@@ -25,33 +25,33 @@ exports[`Home page matches snapshot 1`] = `
       >
         with
         <span
-          class="jsx-2250570153 css-19dihr3-highlight"
+          class="jsx-2250570153 css-1yo8abo-highlight"
         >
           TypeScript
         </span>
         <span
-          class="jsx-2250570153 css-19dihr3-highlight"
+          class="jsx-2250570153 css-1yo8abo-highlight"
         >
           ESLint
         </span>
         <span
-          class="jsx-2250570153 css-19dihr3-highlight"
+          class="jsx-2250570153 css-1yo8abo-highlight"
         >
           Jest
         </span>
         <span
-          class="jsx-2250570153 css-19dihr3-highlight"
+          class="jsx-2250570153 css-1yo8abo-highlight"
         >
           TailwindCSS
         </span>
         <span
-          class="jsx-2250570153 css-19dihr3-highlight"
+          class="jsx-2250570153 css-1yo8abo-highlight"
         >
           Emotion
         </span>
         and
         <span
-          class="jsx-2250570153 css-19dihr3-highlight"
+          class="jsx-2250570153 css-1yo8abo-highlight"
         >
           Cypress
         </span>
@@ -75,13 +75,13 @@ exports[`Home page matches snapshot 1`] = `
         class="jsx-2250570153 css-1d6h1jx-Home"
       >
         <button
-          class="css-e7qmf6-button group"
+          class="css-z0yndt-button group"
         >
           <span
             class="css-1plhd0h-ButtonCss"
           >
             <svg
-              class="css-qkfjq1-ButtonCss"
+              class="css-11ikpvn-ButtonCss"
               fill="currentColor"
               viewBox="0 0 20 20"
             >
@@ -95,13 +95,13 @@ exports[`Home page matches snapshot 1`] = `
           @emotion/css
         </button>
         <button
-          class="group  css-1tcz458-Component"
+          class="group  css-53je8p-Component"
         >
           <span
             class="css-15quut2-ButtonReact"
           >
             <svg
-              class="css-jxx9nt-ButtonReact"
+              class="css-gjosjw-ButtonReact"
               fill="currentColor"
               viewBox="0 0 20 20"
             >
@@ -115,13 +115,13 @@ exports[`Home page matches snapshot 1`] = `
           @emotion/react
         </button>
         <button
-          class="group  css-xcz8wc-Button e1hljgas2"
+          class="group  css-sdydbj-Button e1hljgas2"
         >
           <span
             class="css-1maqz9a-IconWrapper e1hljgas1"
           >
             <svg
-              class="css-1yqsut3-Icon e1hljgas0"
+              class="css-1vl2mft-Icon e1hljgas0"
               fill="currentColor"
               viewBox="0 0 20 20"
             >
