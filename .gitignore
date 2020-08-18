@@ -32,3 +32,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# cypress
+cypress/integration/examples
+cypress/screenshots
+cypress/videos
+
