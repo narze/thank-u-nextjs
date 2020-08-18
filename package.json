@@ -40,6 +40,7 @@
     "@emotion/server": "^11.0.0-next.12",
     "@tailwindcss/ui": "^0.2.2",
     "@tailwindcssinjs/macro": "^0.3.1",
+    "@testing-library/cypress": "^6.0.0",
     "@testing-library/react": "^10.0.1",
     "@types/jest": "^26.0.10",
     "@types/node": "^13.9.5",
