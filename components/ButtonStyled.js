@@ -43,7 +43,7 @@ const Icon = styled.svg(tw`
   transition ease-in-out duration-150
 `)
 
-const ButtonStyled = ({ className="", children, ...props }) => (
+const ButtonStyled = ({ className = '', children, ...props }) => (
   <Button {...props} className={['group', className].join(' ')}>
     <IconWrapper>
       <Icon fill="currentColor" viewBox="0 0 20 20">

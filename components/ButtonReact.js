@@ -34,7 +34,7 @@ const styles = {
   `,
 }
 
-const ButtonReact = ({ className="", children, ...props }) => (
+const ButtonReact = ({ className = '', children, ...props }) => (
   <button
     {...props}
     css={styles.button}

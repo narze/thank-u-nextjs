@@ -20,6 +20,43 @@ exports[`Home page matches snapshot 1`] = `
         </a>
       </h1>
       <p
+        class="jsx-2250570153 css-1bdbpaa-subtitle"
+        data-testid="subtitle"
+      >
+        with
+        <span
+          class="jsx-2250570153 css-19dihr3-highlight"
+        >
+          TypeScript
+        </span>
+        <span
+          class="jsx-2250570153 css-19dihr3-highlight"
+        >
+          ESLint
+        </span>
+        <span
+          class="jsx-2250570153 css-19dihr3-highlight"
+        >
+          Jest
+        </span>
+        <span
+          class="jsx-2250570153 css-19dihr3-highlight"
+        >
+          TailwindCSS
+        </span>
+        <span
+          class="jsx-2250570153 css-19dihr3-highlight"
+        >
+          Emotion
+        </span>
+        and
+        <span
+          class="jsx-2250570153 css-19dihr3-highlight"
+        >
+          Cypress
+        </span>
+      </p>
+      <p
         class="jsx-2250570153 description"
       >
         Get started by editing 

@@ -8,8 +8,8 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { extractCritical } from '@emotion/server'
 
 interface MyDocumentProps {
-  ids: string[],
-  css: string,
+  ids: string[]
+  css: string
 }
 
 export default class MyDocument extends Document<MyDocumentProps> {
