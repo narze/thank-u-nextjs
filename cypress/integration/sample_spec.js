@@ -17,8 +17,8 @@ describe('homepage', () => {
       cy.findByText(/Cypress/i).should('exist')
     })
 
-    cy.findByRole('button', { name: '@emotion/css' }).click()
+    cy.findByRole('button', { name: '@emotion/core' }).click()
     cy.findByRole('button', { name: '@emotion/react' }).click()
-    cy.findByRole('button', { name: '@emotion/styled' }).click()
+    cy.findByRole('button', { name: '@emotion/styled' }).should('not.exist')
   })
 })

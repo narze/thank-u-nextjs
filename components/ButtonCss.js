@@ -1,19 +1,8 @@
 /*
-  Example with @emotion/css
-
-  Note: configure "extractCritical" from "@emotion/server" in _document.js.
-
-  Required packages for this component:
-    "@emotion/css"
-    "@emotion/babel-plugin"
-    "@emotion/server"
-
-  These packages can be removed if you plan on only using @emotion/css API:
-    "@emotion/react"
-    "@emotion/styled"
+  Example with emotion
 */
 
-import { css, cx } from '@emotion/css'
+import { css, cx } from 'emotion'
 import tw from '@tailwindcssinjs/macro'
 
 //"react native style"
@@ -39,9 +28,15 @@ const ButtonCss = ({ className = null, children, ...props }) => (
   <button {...props} className={cx(styles.button, 'group', className)}>
     {/* inline style */}
     <span className={css(tw`absolute left-0 inset-y-0 flex items-center pl-3`)}>
+      {/* compose styles with cx */}
       <svg
-        className={css(
-          tw`h-5 w-5 text-gray-500 group-hover:text-gray-400 transition ease-in-out duration-150`
+        className={cx(
+          css(
+            tw`h-5 w-5 group-hover:text-gray-400 transition ease-in-out duration-150`
+          ),
+          css`
+            color: hotpink;
+          `
         )}
         fill="currentColor"
         viewBox="0 0 20 20"

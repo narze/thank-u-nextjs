@@ -1,18 +1,10 @@
 /*
-  Example with @emotion/react
-
-  Required packages for this component:
-    "@emotion/react"
-    "@emotion/babel-plugin"
-
-  These packages can be removed if you plan on only using @emotion/react API:
-    "@emotion/css"
-    "@emotion/styled"
-    "@emotion/server"
+  Example with @emotion/core
 */
 
 /** @jsx jsx */
-import { jsx } from '@emotion/react'
+import { css, jsx } from '@emotion/core'
+
 import tw from '@tailwindcssinjs/macro'
 
 //"react native style"
@@ -42,8 +34,14 @@ const ButtonReact = ({ className = '', children, ...props }) => (
   >
     {/* inline style */}
     <span css={tw`absolute left-0 inset-y-0 flex items-center pl-3`}>
+      {/* compose styles with array */}
       <svg
-        css={tw`h-5 w-5 text-teal-500 group-hover:text-teal-400 transition ease-in-out duration-150`}
+        css={[
+          tw`h-5 w-5 group-hover:text-teal-400 transition ease-in-out duration-150`,
+          css`
+            color: hotpink;
+          `,
+        ]}
         fill="currentColor"
         viewBox="0 0 20 20"
       >
