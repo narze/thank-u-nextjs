@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "build:base-css": "tailwindcss build ./styles/tailwind.base.css -o ./styles/base.css",
-    "type-check": "tsc --pretty --noEmit",
+    "type-check": "tsc --pretty --noEmit && tsc --pretty --noEmit -p cypress",
     "format": "prettier --write \"**/*.{js,ts,tsx}\"",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
