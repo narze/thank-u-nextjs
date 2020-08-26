@@ -16,6 +16,10 @@ Bootstrap a developer-friendly (?) NextJS app configured with:
 
 This template is built from [examples/with-tailwindcss-emotion](https://github.com/vercel/next.js/blob/canary/examples/with-tailwindcss-emotion/README.md) & [examples/with-typescript-eslint-jest](https://github.com/vercel/next.js/blob/canary/examples/with-typescript-eslint-jest/README.md) then added some more sensible packages.
 
+## Projects built with this template
+
+- https://github.com/narze/typeland
+
 ## Deploy your own
 
 Deploy the example using [Vercel](https://vercel.com):
