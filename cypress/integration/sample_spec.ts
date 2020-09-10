@@ -6,7 +6,6 @@ describe('homepage', () => {
   it('renders heading', () => {
     cy.findByText(/Welcome to/i).should('exist')
     cy.findByRole('link', { name: 'Next.js!' }).should('exist')
-    cy.findByRole('button', { name: 'Test Button' }).should('exist')
 
     cy.findByTestId('subtitle').within(() => {
       cy.findByText(/TypeScript/i).should('exist')
@@ -19,5 +18,6 @@ describe('homepage', () => {
 
     cy.findByRole('button', { name: 'Emotion CSS' }).click()
     cy.findByRole('button', { name: 'Emotion React' }).click()
+    cy.findByRole('button', { name: 'Chakra-UI' }).click()
   })
 })
