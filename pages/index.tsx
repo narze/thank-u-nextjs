@@ -3,6 +3,7 @@ import { jsx } from '@emotion/core'
 import tw from '@tailwindcssinjs/macro'
 import ButtonCss from '../components/ButtonCss'
 import ButtonReact from '../components/ButtonReact'
+import { Button } from '@chakra-ui/core'
 
 const styles = {
   subtitle: tw`
@@ -41,17 +42,12 @@ export const Home = (): JSX.Element => (
         Get started by editing <code>pages/index.tsx</code>
       </p>
 
-      <button
-        onClick={() => {
-          window.alert('With typescript and Jest')
-        }}
-      >
-        Test Button
-      </button>
-
       <div css={tw`mt-8 grid gap-4 grid-cols-1 justify-center items-center`}>
         <ButtonCss>Emotion CSS</ButtonCss>
         <ButtonReact>Emotion React</ButtonReact>
+        <Button variantColor="teal" variant="solid">
+          Chakra-UI
+        </Button>
       </div>
 
       <div className="grid">

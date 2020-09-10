@@ -8,6 +8,7 @@ Bootstrap a developer-friendly (?) NextJS app configured with:
 - Linting, typechecking and formatting on by default using [Husky](https://github.com/typicode/husky) for commit hooks
 - Testing with [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Tailwind CSS](https://tailwindcss.com)
+- [Chakra](https://chakra-ui.com), a React component library
 - [Emotion](https://emotion.sh)
 - [`@tailwindcssinjs/macro`](https://github.com/Arthie/tailwindcssinjs) It injects Tailwind CSS into Emotion styled component, so PurgeCSS is not needed in this setup.
 - [ts-jest](https://github.com/kulshekhar/ts-jest)
