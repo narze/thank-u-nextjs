@@ -41,6 +41,10 @@ Well tested codebase will save you from [Javascript Fatigue](https://hackernoon.
 
 [Husky](https://github.com/typicode/husky) will lint & format the code before commit & push, so the code will be cleaner & easier for review (But please don't add `any` type everywhere)
 
+### CI
+
+Github Actions will run all the tests. [See configuration](./.github/workflows/nodejs.yml)
+
 ## Projects built with this template
 
 - https://github.com/narze/typeland
