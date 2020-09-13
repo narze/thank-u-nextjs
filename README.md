@@ -17,6 +17,30 @@ Bootstrap a developer-friendly (?) NextJS app configured with:
 
 This template is built from [examples/with-tailwindcss-emotion](https://github.com/vercel/next.js/blob/canary/examples/with-tailwindcss-emotion/README.md) & [examples/with-typescript-eslint-jest](https://github.com/vercel/next.js/blob/canary/examples/with-typescript-eslint-jest/README.md) then added some more sensible packages.
 
+## Development Workflow
+
+This boilerplate is carefully built to make TDD workflow in frontend development possible, as you can see a bunch of testing libraries included.
+
+### Test-first
+
+Before adding features (components, pages, etc.) you add tests in at least one level:
+
+- Unit Tests : Jest
+- Integration / e2e Tests : Cypress
+- UI Tests : Storybook
+
+You can add `pending` tests if the feature is difficult or cannot figure out yet how to test (eg. authentication with Firebase, which is hard to mock)
+But make sure that you cleanup pending tests quickly before it goes out of control and leaves you with low test coverage.
+
+[rant]
+You (and your team) will be thankful for the tests later when you decide to refactor or add/switch dependencies, like updating dependencies, switching to Preact, adopting Recoil, trying out the next Next.js, and so on.
+Well tested codebase will save you from [Javascript Fatigue](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f) no matter how large or small your project is.
+[/rant]
+
+### Static Analysis
+
+[Husky](https://github.com/typicode/husky) will lint & format the code before commit & push, so the code will be cleaner & easier for review (But please don't add `any` type everywhere)
+
 ## Projects built with this template
 
 - https://github.com/narze/typeland
