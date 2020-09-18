@@ -48,6 +48,7 @@ Github Actions will run all the tests. [See configuration](./.github/workflows/n
 ## Projects built with this template
 
 - https://github.com/narze/typeland
+- https://github.com/narze/toSkoy
 
 ## Deploy your own
 
