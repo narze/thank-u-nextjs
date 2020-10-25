@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/core'
-import tw from '@tailwindcssinjs/macro'
+import tw from 'twin.macro'
 import ButtonCss from '../components/ButtonCss'
 import ButtonReact from '../components/ButtonReact'
 import { Button } from '@chakra-ui/core'

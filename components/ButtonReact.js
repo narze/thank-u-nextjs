@@ -5,7 +5,7 @@
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 
-import tw from '@tailwindcssinjs/macro'
+import tw from 'twin.macro'
 
 //"react native style"
 const styles = {
@@ -20,7 +20,7 @@ const styles = {
     text-white
     bg-teal-600
     hover:bg-teal-500
-    focus[outline-none border-teal-700 shadow-outline-teal]
+    focus:(outline-none border-teal-700 shadow-outline-teal)
     active:bg-teal-700
     transition duration-150 ease-in-out
   `,
