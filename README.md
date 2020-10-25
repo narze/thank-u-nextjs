@@ -10,7 +10,7 @@ Bootstrap a developer-friendly (?) NextJS app configured with:
 - [Tailwind CSS](https://tailwindcss.com)
 - [Chakra](https://chakra-ui.com), a React component library
 - [Emotion](https://emotion.sh)
-- [`@tailwindcssinjs/macro`](https://github.com/Arthie/tailwindcssinjs) It injects Tailwind CSS into Emotion styled component, so PurgeCSS is not needed in this setup.
+- [Twin.macro](https://github.com/ben-rogerson/twin.macro) - Enable using babel macro with Tailwind, so PurgeCSS is not needed.
 - [ts-jest](https://github.com/kulshekhar/ts-jest)
 - [Cypress](http://cypress.io/) and [Cypress Testing Library](https://github.com/testing-library/cypress-testing-library)
 - [Storybook](https://storybook.js.org)
