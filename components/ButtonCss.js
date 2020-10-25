@@ -3,7 +3,7 @@
 */
 
 import { css, cx } from 'emotion'
-import tw from '@tailwindcssinjs/macro'
+import tw from 'twin.macro'
 
 //"react native style"
 const styles = {
@@ -18,7 +18,7 @@ const styles = {
     text-white
     bg-gray-600
     hover:bg-gray-500
-    focus[outline-none border-gray-700 shadow-outline-gray]
+    focus:(outline-none border-gray-700 shadow-outline-gray)
     active:bg-gray-700
     transition duration-150 ease-in-out
   `),
