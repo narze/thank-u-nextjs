@@ -17,8 +17,8 @@ export default function App({
           Create Next App - with TypeScript, ESLint, Jest, TailwindCSS, Emotion
         </title>
         <link rel="icon" href="/favicon.ico" />
-        <GlobalStyles />
       </Head>
+      <GlobalStyles />
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
       </ThemeProvider>
