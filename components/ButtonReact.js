@@ -2,10 +2,7 @@
   Example with @emotion/core
 */
 
-/** @jsx jsx */
-import { css, jsx } from '@emotion/core'
-
-import tw from 'twin.macro'
+import tw, { css } from 'twin.macro'
 
 //"react native style"
 const styles = {

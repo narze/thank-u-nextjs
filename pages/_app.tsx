@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import '../styles/base.css'
 import { ThemeProvider, theme } from '@chakra-ui/core'
@@ -11,7 +12,7 @@ export default function App({
   pageProps: any
 }): JSX.Element {
   return (
-    <>
+    <React.Fragment>
       <Head>
         <title>
           Create Next App - with TypeScript, ESLint, Jest, TailwindCSS, Emotion
@@ -22,6 +23,6 @@ export default function App({
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
       </ThemeProvider>
-    </>
+    </React.Fragment>
   )
 }
