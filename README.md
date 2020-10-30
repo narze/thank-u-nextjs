@@ -1,5 +1,7 @@
 # Thank u, Next.js
 
+[![codecov](https://codecov.io/gh/narze/thank-u-nextjs/branch/master/graph/badge.svg?token=6AIOFCOAPT)](undefined)
+
 Bootstrap a developer-friendly (?) NextJS app configured with:
 
 - [Typescript](https://www.typescriptlang.org/)
