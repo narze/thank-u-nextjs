@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import { render, RenderResult } from '@testing-library/react'
 import { ReactElement } from 'react'
 import { ThemeProvider, theme } from '@chakra-ui/core'

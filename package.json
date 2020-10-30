@@ -12,7 +12,7 @@
     "format": "prettier --write \"**/*.{js,ts,tsx}\"",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test && yarn cy:ci",
+    "test-all": "yarn lint && yarn type-check && yarn test --ci --coverage && yarn cy:ci",
     "cy:run": "cypress run",
     "cy:run:headless": "cypress run --browser chrome --headless",
     "cy:open": "cypress open",
